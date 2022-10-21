@@ -1,0 +1,17 @@
+.fundo{
+    background-image: url('../../img/fundo_vermelho.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--FontP);
+}
+.texto-fundo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+.texto{
+    font-size: 40px;
+    color: white;
+}

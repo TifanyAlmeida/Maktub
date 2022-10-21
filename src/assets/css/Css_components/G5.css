@@ -1,0 +1,48 @@
+.div-externo{
+    font-family: var(--FontP);
+    height: 90vh;
+    background-color: #eff1f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+}
+.div-centro{
+    text-align: center;
+}
+.inovacao-interno{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 120vh;
+}
+.texto-apresentacao{
+    text-align: center;
+}
+.realidade-virtual, .cidade-inteligente, .agricultura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    height: 400px;
+}
+.inovacao-externo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.what-5G{
+    margin: 2rem 0rem;
+}
+.icones{
+    font-size: 146px;
+}
+.img-icon{
+    margin-top: 1rem;
+}

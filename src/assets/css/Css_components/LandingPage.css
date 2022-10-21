@@ -1,0 +1,167 @@
+.fundo-5g{
+  background-size: contain;
+  height: 400px;
+  width: 400px;
+}
+.fundo-landing-page{
+  display: flex;
+  font-family: var(--FontP);
+  height: 50vh;
+  justify-content: space-between;
+  padding-top: 11rem;
+}
+.div-imagem{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fundo-5g-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    margin-left: 6rem;
+    width: 50%;
+}
+#texto-5g{
+  margin-bottom: 3rem;
+}
+.titulo-5g{
+  margin-bottom: 1rem;
+}
+.triangulo{
+  background-image: url('../../img/triangulo.svg');
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.button-saiba-mais {
+    margin-top: 2rem;
+    appearance: button;
+    width: max-content;
+    width: 50%;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #991318;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-saiba-mais:after {
+  background-clip: padding-box;
+  background-color: #e12229;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-saiba-mais:main,
+.button-saiba-mais:focus {
+  user-select: auto;
+}
+
+.button-saiba-mais:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-saiba-mais:disabled {
+  cursor: auto;
+}
+
+
+/**/
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.link-pop{
+  color: white;
+}
+.modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-window > div {
+    width: 400px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+.modal-close {
+  line-height: 50px;
+  font-size: 25px;
+  width: 70px;
+  color: rgb(255, 0, 0);
+}
+.Xzin{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.modal-close:hover {
+  color: rgb(185, 18, 18);
+}
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.logo {
+  max-width: 150px;
+  display: block;
+}
+
+small {
+  color: rgb(138, 138, 138);
+}
+
+.btn {
+  background-color: white;
+  padding: 1em 1.5em;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+.desativa-scrool{
+  overflow: hidden;
+}

@@ -1,0 +1,32 @@
+.div-centralizadora{
+    height: 105vh;
+    display: flex;
+    font-family: var(--FontP);
+    margin-top: 5rem;
+    padding: 10rem;
+}
+.imagem-esquerda{
+    display: flex;
+    margin-top: 12rem;
+}
+.esquerda{
+    margin-right: 0.5rem;
+}
+.texto-esquerda{
+    width: 80%;
+    margin-bottom: 12rem;
+}
+.paceria-titulo{
+    margin-bottom: 2rem;
+}
+.foto-tim{
+    height: 350px;
+    width: 600px;
+}
+.foto-claro, .foto-vivo, .foto-tim{
+    border-radius: 2rem;
+}
+.parceria-titulo{
+    color: #e12229;
+    font-weight: 700;
+}

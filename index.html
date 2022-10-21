@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/136c7034cf.js" crossorigin="anonymous"></script>
+    <title>Vite + React</title>
+  </head>
+  <body id="body">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      setTimeout(() => {
+        var botao = document.getElementById('saibamais');
+          botao.addEventListener('click', () =>{
+            var conteudo = document.getElementById('body')
+            conteudo.classList.add("desativa-scrool");
+          })  
+      }, 1000);
+
+      setTimeout(() => {
+        var botaoX = document.getElementById('xfecha');
+          botaoX.addEventListener('click', () =>{
+            var conteudo = document.getElementById('body')
+            conteudo.classList.remove("desativa-scrool");
+          })  
+      }, 1000);
+  
+    </script>
+  </body>
+</html>

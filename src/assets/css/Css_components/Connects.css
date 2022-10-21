@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-ul{
+    display: flex;
+    margin-left: 7rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-family: var(--FontP);
+    padding: 2rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top:0;
+    z-index: 999;
+}
+.nav-li{
+    margin-right: 2rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
